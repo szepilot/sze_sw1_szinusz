@@ -32,6 +32,14 @@ source ~/ros2_ws/install/setup.bash
 ros2 launch sze_sw1_szinusz launch_example1.launch.py
 ```
 
+``` r
+ros2 run sze_sw1_szinusz gen_node 
+```
+
+``` r
+ros2 run sze_sw1_szinusz sum_node 
+```
+
 ## Graph
 
 ``` mermaid
@@ -49,3 +57,5 @@ classDef dark fill:#152742,stroke:#34aec5,stroke-width:2px,color:#34aec5
 classDef white fill:#ffffff,stroke:#152742,stroke-width:2px,color:#152742
 classDef red fill:#ef4638,stroke:#152742,stroke-width:2px,color:#fff
 ```
+
+![](img/works01.png)
